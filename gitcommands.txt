@@ -1,0 +1,8 @@
+echo "#FirstDebug" >> README.md 						// to creat file 
+git init                        						// initialize git
+git add README.md               						// to add file in the repository
+git commit -m "first commit"    						// to commit the file 
+git config --global user.email "you@example.com"		// configure email of github
+git remote add origin https://github.com/ZahidHasanRifad/FirstDebug.git // to remote the github website 
+git push -u origin master           					// push these file into git
+
